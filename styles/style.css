@@ -1,197 +1,174 @@
-*{
-    font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
 }
-
-
-
-
 
 /* header portion */
-.container{
-    width: 1170px;
-    margin: 0 auto;
-    padding: 20px 0px;
-   
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 20px 0px;
 }
 header {
-    align-items: center;
-    display: flex;
-    text-align: right;
-    height: 800px;
-    color: #FFFFFF;
-    background-image: url(../images/banner/banner3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  align-items: center;
+  display: flex;
+  text-align: right;
+  height: 800px;
+  color: #ffffff;
+  background-image: url(../images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header-description {
-text-align: right;
-margin-bottom: 50px;
+  text-align: right;
+  margin-bottom: 50px;
 
-
+  /* button section */
 }
 .btn-primary {
-    color: rgb(9, 5, 241);
-    font-weight: 700;
-    font-size: 20px;
-    height: 54px;
-    border-radius: 5px;
-    background: rgb(245, 245, 245);
-    border: 0;
-    padding: 10px 35px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+  color: rgb(9, 5, 241);
+  font-weight: 700;
+  font-size: 20px;
+  height: 54px;
+  border-radius: 5px;
+  background: rgb(245, 245, 245);
+  border: 0;
+  padding: 10px 35px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
+.btn-primary1 {
+  background-color: rgb(8, 8, 185);
+  font-weight: 700;
+  font-size: 20px;
+  height: 54px;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px 35px;
+  color: aliceblue;
+}
+
+.contact-button {
+  background-color: rgb(11, 11, 226);
+  font-weight: 700;
+  font-size: 20px;
+  height: 54px;
+  border-radius: 5px;
+  border: 0;
+  width: 40px;
+  color: aliceblue;
+}
+.contact-picture {
+  width: 600px;
+}
+
 /* banner section */
-.section-banner{
-   text-align: left;
-   color: black;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 80px;
-   padding: 60px 0px;
-
-   
-   
+.section-banner {
+  text-align: left;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 60px 0px;
 }
-.picture{
-height: 400px;
-width: 300px;
-
-
+.picture {
+  height: 400px;
+  width: 300px;
 }
-.section-description{
-    
-    text-align: left;
-    color: rgb(32, 30, 30);
- 
-
+.section-description {
+  text-align: left;
+  color: rgb(32, 30, 30);
 }
-.list-item{
-display: flex;
-align-items: center;
-margin: 5px;
-
-
+.list-item {
+  display: flex;
+  align-items: center;
+  margin: 5px;
 }
-.list-item i{
-    color: green;
-
+.list-item i {
+  color: green;
 }
-.list-item p{
-    margin: 0px; 
-    margin-left: 5px;
+.list-item p {
+  margin: 0px;
+  margin-left: 5px;
 }
 
+/* my plans section */
 
-
-/* my plans */
-
-.plan{
-  
-
-
+.plan-title {
+  text-align: center;
+  font-size: 30px;
 }
-.plan-title{
-    text-align: center;
-    font-size: 30px;
-    
-    
-
-}
-.plan-container{
-    justify-content: space-between;
-display: flex;
-padding: 20px 20px 20px 40px;
-margin-right: 100px;
-margin-left: 160px;
-text-align: center;
+.plan-container {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 20px 20px 40px;
+  margin-right: 100px;
+  margin-left: 160px;
+  text-align: center;
 }
 
+/* contact section*/
 
-/* contact */
-
-.contact{
-background-image: linear-gradient(to right, rgba(6, 41, 240, 0.52), rgba(216, 211, 215, 0.73)), url(../images/watch.png);
-padding: 30px;
-background-repeat: no-repeat;
-background-position-x: left;
-   background-size: cover;
-   
+.contact {
+  background-image: linear-gradient(
+      to right,
+      rgba(6, 41, 240, 0.52),
+      rgba(216, 211, 215, 0.73)
+    ),
+    url(../images/watch.png);
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-size: cover;
 }
-.contact-title{
-
-    margin-left: 18px;
-    color: #FFFFFF;
+.contact-title {
+  margin-left: 18px;
+  color: #ffffff;
 }
 
-  /* future */
+/* future  section*/
 
+.future {
+  margin-top: 50px;
 
-  .future{
-    margin-top: 50px;
+  justify-content: space-between;
+  padding: 20px 20px;
+  background-color: black;
 
-justify-content: space-between;
-padding: 20px 20px;
-background-color: black;
+  color: aliceblue;
+}
+.future-title {
+  padding-top: 20px;
+}
 
-color: aliceblue;
-  }
-  .future-title{
-    padding-top: 20px;
-  }
+.future-container {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
 
-  .future-container{
-display: flex;
-align-items: top;
-justify-content: space-between;
+.future-input {
+  padding: 10px 4px;
+  margin-bottom: 10px;
+}
 
-  }
+.web {
+  justify-content: space-around;
+  padding: 10px;
+  margin-right: 100px;
+}
 
-  .future-input{
-    padding: 10px 4px;
-    margin-bottom: 10px;
+/* my own section */
+.about input,
+textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  width: 100%;
+}
 
-  }
-
-  
-  .web{
-    justify-content: space-around;
-    padding: 10px;
-    margin-right: 100px;
-  }
-  .btn-primary1{
-    background-color: rgb(9, 9, 139);
-    font-weight: 700;
-    font-size: 20px;
-    height: 54px;
-    border-radius: 5px;
-    border: 0;
-    padding: 18px 35px;
-    color: aliceblue;
-    
-  }
-
-
-  .about input,textarea {
-
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px 5px;
-    width: 100%;
-
-  }
-  .contact-button{ background-color: rgb(15, 15, 235);
-    font-weight: 700;
-    font-size: 20px;
-    height: 54px;
-    border-radius: 5px;
-    border: 0;
-    width: 40px;
-   
-    color: aliceblue;}
-    .contact-picture{
-        width: 600px;
-    }
-   
-    
+.footer {
+  text-align: center;
+  color: blue;
+  font-weight: 800;
+}
